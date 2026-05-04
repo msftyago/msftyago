@@ -23,16 +23,33 @@ I'm 18 and currently taking a gap year before pursuing formal higher education. 
 
 ## stack
 
-| Network       | Systems                            | Programming   | Framework & APIs | IoT     | Debugging & pentesting tools | Software                 | Documenting & Media        |
-|---------------|------------------------------------|---------------|------------------|---------|------------------------------|--------------------------|----------------------------|
-| cisco 200-301 | NixOS, Guix                        | C/C++         | OpenGL           | ESP-32  | Strace                       | KiCAD                    | TeX, LaTeX, PDF, EPUB      |
-| mikrotik      | Live operating systems, Ventoy     | Nix           | Qt               | STM     | OpenTelemetry                | OpenSCAD                 | Emacs Org                  |
-| palo alto     | RTOS                               | Rust          | Django           | Arduino | Wireshark                    | GNU Gimp                 | typst                      |
-| huawei        | Debian based distributions         | Clojure/Elisp | Aiogram          |         | tcpdump                      | Blender 3D               | XML, JSON, Toml            |
-| VNC           | RHEL                               | Python        | Flask            |         | eve-ng                       | Da Vinci Resolve         | HTML, Markdown             |
-| Torrent       | FreeBSD, NetBSD, OpenBSD, NixBSD   | Ruby          | tokio            |         | nmap                         | Putty, MobaXterm, WinSCP | LibreOffice, 360           |
-|               | Gentoo, operating systems assembly | Lua           | Numpy            |         | HWiNFO                       |                          | DNG, ARW, RAW, LOG         |
-|               | Kubernetes                         | --------      | ESP-IDF          |         | hashcat                      |                          | Excalidraw, draw.io, figma |
-|               | Docker, Nix, npm                   | sockets       | ffmpeg           |         |                              |                          |                            |
-|               | Oracle VM, Wine, Bottles, VMWare   | backend       |                  |         |                              |                          |                            |
-|               | SystemD, Initrd, GRUB              |               |                  |         |                              |                          |                            |
+<div style="display: flex; justify-content: space-between;">
+  <pre style="overflow-x: auto; width: 48%;">
+| Network       | Systems                            | Programming   | Framework & APIs | IoT     |
+|---------------|------------------------------------|---------------|------------------|---------|
+| cisco 200-301 | NixOS, Guix                        | C/C++         | OpenGL           | ESP-32  |
+| mikrotik      | Live operating systems, Ventoy     | Nix           | Qt               | STM     |
+| palo alto     | RTOS                               | Rust          | Django           | Arduino |
+| huawei        | Debian based distributions         | Clojure/Elisp | Aiogram          |         |
+| VNC           | RHEL                               | Python        | Flask            |         |
+| Torrent       | FreeBSD, NetBSD, OpenBSD, NixBSD   | Ruby          | tokio            |         |
+|               | Gentoo, operating systems assembly | Lua           | Numpy            |         |
+|               | Kubernetes                         | --------      | ESP-IDF          |         |
+|               | Docker, Nix, npm                   | sockets       | ffmpeg           |         |
+|               | Oracle VM, Wine, Bottles, VMWare   | backend       |                  |         |
+|               | SystemD, Initrd, GRUB              |               |                  |         |
+</pre>
+  <pre style="overflow-x: auto; width: 48%;">
+| Debugging & pentesting tools | Software                 | Documenting & Media        |
+|------------------------------|--------------------------|----------------------------|
+| Strace                       | KiCAD                    | TeX, LaTeX, PDF, EPUB      |
+| OpenTelemetry                | OpenSCAD                 | Emacs Org                  |
+| Wireshark                    | GNU Gimp                 | typst                      |
+| tcpdump                      | Blender 3D               | XML, JSON, Toml            |
+| eve-ng                       | Da Vinci Resolve         | HTML, Markdown             |
+| nmap                         | Putty, MobaXterm, WinSCP | LibreOffice, 360           |
+| HWiNFO                       |                          | DNG, ARW, RAW, LOG         |
+| hashcat                      |                          | Excalidraw, draw.io, figma |
+|                              |                          |                            |
+</pre>
+</div>
