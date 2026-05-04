@@ -23,8 +23,7 @@ I'm 18 and currently taking a gap year before pursuing formal higher education. 
 
 ## stack
 
-<div style="display: flex; justify-content: space-between;">
-  <pre style="overflow-x: auto; width: 48%;">
+``` json
 | Network       | Systems                            | Programming   | Framework & APIs | IoT     |
 |---------------|------------------------------------|---------------|------------------|---------|
 | cisco 200-301 | NixOS, Guix                        | C/C++         | OpenGL           | ESP-32  |
@@ -38,8 +37,8 @@ I'm 18 and currently taking a gap year before pursuing formal higher education. 
 |               | Docker, Nix, npm                   | sockets       | ffmpeg           |         |
 |               | Oracle VM, Wine, Bottles, VMWare   | backend       |                  |         |
 |               | SystemD, Initrd, GRUB              |               |                  |         |
-</pre>
-  <pre style="overflow-x: auto; width: 48%;">
+```
+``` json
 | Debugging & pentesting tools | Software                 | Documenting & Media        |
 |------------------------------|--------------------------|----------------------------|
 | Strace                       | KiCAD                    | TeX, LaTeX, PDF, EPUB      |
@@ -51,5 +50,4 @@ I'm 18 and currently taking a gap year before pursuing formal higher education. 
 | HWiNFO                       |                          | DNG, ARW, RAW, LOG         |
 | hashcat                      |                          | Excalidraw, draw.io, figma |
 |                              |                          |                            |
-</pre>
-</div>
+```
