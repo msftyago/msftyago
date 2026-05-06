@@ -10,6 +10,7 @@
 
 <p align="right">
     <samp>
+	<a href="https://meow.uz">meow.uz</a> .
 	<a href="https://bandcamp.com/msftyago">bandcamp</a> .
     <a href="https://leetcode.com/u/msftyago/">leetcode</a> .
     <a href="https://www.telegram.org/msftyago">contact</a>
@@ -25,16 +26,17 @@ I'm 18 and currently taking a gap year before pursuing formal higher education. 
 
 ``` json
 | Network       | Systems                            | Programming   | Framework & APIs | IoT     | Debugging & pentesting tools | Software                 | Documenting & Media        |
-|---------------|------------------------------------|---------------|------------------|---------|------------------------------|--------------------------|----------------------------|
+|---------------+------------------------------------+---------------+------------------+---------+------------------------------+--------------------------+----------------------------|
 | cisco 200-301 | NixOS, Guix                        | C/C++         | OpenGL           | ESP-32  | Strace                       | KiCAD                    | TeX, LaTeX, PDF, EPUB      |
 | mikrotik      | Live operating systems, Ventoy     | Nix           | Qt               | STM     | OpenTelemetry                | OpenSCAD                 | Emacs Org                  |
 | palo alto     | RTOS                               | Rust          | Django           | Arduino | Wireshark                    | GNU Gimp                 | typst                      |
-| huawei        | Debian based distributions         | Clojure/Elisp | Aiogram          |         | tcpdump                      | Blender 3D               | XML, JSON, Toml            |
+| huawei        | Debian based distributions         | Clojure/Elisp | Aiogram          | RTOS    | tcpdump                      | Blender 3D               | XML, JSON, Toml            |
 | VNC           | RHEL                               | Python        | Flask            |         | eve-ng                       | Da Vinci Resolve         | HTML, Markdown             |
 | Torrent       | FreeBSD, NetBSD, OpenBSD, NixBSD   | Ruby          | tokio            |         | nmap                         | Putty, MobaXterm, WinSCP | LibreOffice, 360           |
-|               | Gentoo, operating systems assembly | Lua           | Numpy            |         | HWiNFO                       |                          | DNG, ARW, RAW, LOG         |
-|               | Kubernetes                         | --------      | ESP-IDF          |         | hashcat                      |                          | Excalidraw, draw.io, figma |
-|               | Docker, Nix, npm                   | sockets       | ffmpeg           |         |                              |                          |                            |
-|               | Oracle VM, Wine, Bottles, VMWare   | backend       |                  |         |                              |                          |                            |
-|               | SystemD, Initrd, GRUB              |               |                  |         |                              |                          |                            |
+| Cloudflare    | Gentoo, operating systems assembly | Lua           | Numpy            |         | HWiNFO                       |                          | DNG, ARW, RAW, LOG         |
+|               | Kubernetes                         |               | ESP-IDF          |         | hashcat                      |                          | Excalidraw, draw.io, figma |
+|               | Docker, Nix, npm                   |               | ffmpeg           |         |                              |                          | DaVinci Resolve            |
+|               | Oracle VM, Wine, Bottles, VMWare   |               | sockets          |         |                              |                          | Capture One                |
+|               | SystemD, Initrd, GRUB              |               |                  |         |                              |                          | Adobe Lr, Ps, Pr, Ai       |
+|               |                                    |               |                  |         |                              |                          |                            |
 ```
