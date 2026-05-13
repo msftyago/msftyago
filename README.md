@@ -11,7 +11,7 @@
 <p align="right">
     <samp>
 	<a href="https://meow.uz">meow.uz</a> .
-	<a href="">CV</a> .
+	<a href="https://github.com/msftyago/msftyago/tree/main/CV">CV</a> .
 	<a href="https://bandcamp.com/msftyago">bandcamp</a> .
     <a href="https://leetcode.com/u/msftyago/">leetcode</a> .
     <a href="https://www.telegram.org/msftyago">contact</a>
