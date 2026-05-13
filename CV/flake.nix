@@ -1,13 +1,5 @@
-/*
- _____   _ _____   _     _
-|     | / |     |_| |_ _| |_
-|   --|/ /|   --|_   _|_   _|
-|_____|_/ |_____| |_|   |_|
- 
-for minimal version, see: https://gist.github.com/fufexan/2e7020d05ff940c255d74d5c5e712815
-*/
 {
-  description = "C/C++ environment";
+  description = "My extremely fancy flake to compile LaTeX";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
