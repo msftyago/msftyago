@@ -1,0 +1,189 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontawesome}
+\usepackage{xcolor}
+
+% change color hyperlinks
+\hypersetup{%
+    colorlinks=true,% hyperlinks will be black
+    urlcolor=[rgb]{0.04,0,0.5},
+    urlbordercolor=[rgb]{0.7,0.7,0.7},% hyperlink borders will be gray
+    pdfborderstyle={/S/U/W 0.5}% border style will be underline of width 1pt
+}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+    \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+    \item\small{
+        \textbf{#1}{: #2 \vspace{-2pt}}
+    }
+}
+
+\newcommand{\resumeItemPaper}[1]{
+    \item\small{
+            {#1}
+    }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+    \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+        \textbf{#1}       & #2                 \\
+        \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{\href{}{\Large Muhammadkamol Hakimov - CV}} & Email: \href{mailto:muhammadkamol@yahoo.com}{muhammadkamol@yahoo.com} \\
+	\href{https://www.meow.uz/}{Website}
+	\href{https://github.com/msftyago}{\faGithub}
+\end{tabular*}
+
+%-----------ABOUT----------------------
+\section{About}
+\paragraph{Network/Software Engineer based in Tashkent, Uzbekistan, with a strong background in various tech domains, including systems administration, IoT, and digital imaging.}
+\paragraph{Active open-source and localization contributor, interested in bare-metal and network programming.}
+%-----------STACK----------------------
+\section{Stack}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Network Administration and Automation}{}
+{Professional}{August/2024 – present}
+
+\resumeItemListStart
+\resumeItem{Routing}{L3, Multilayer, BGP, OSPF, RIP, EIGRP, FHRP, Static routing}
+\resumeItem{Internet Protocol Services}{IPv4, IPv6, NAT, DNS, DHCP}
+\resumeItem{Switching}{L2, L3, Rapid PVST+, STP toolkit, EtherChannel, VLAN, CDP, LLDP}
+\resumeItem{Management and Security}{Telnet, SSH, HTTP, HTTPS, console, password management and concepts, TACACS, RADIUS, VPN, L2, L3}
+\resumeItem{Automation and Programmability}{Nix, Bash, CRUD, data encoding, HTTP verbs, authentication, APIs}
+\resumeItem{Hardware}{IEEE 802.3, Serial, I/O concepts, electrical understanding}
+\resumeItemListEnd
+\resumeItemListStart
+\resumeItem{Cisco 200-301 v1.1 - Cisco Certified Network Associate }{Soon}
+\resumeItem{MikroTik MTCNA - MikroTik Certified Network Associate }{Soon}
+\resumeItemListEnd
+
+\resumeSubheading
+{DevOps and Systems}{}
+{Advanced}{September/2023 - present}
+
+\resumeItemListStart
+\resumeItem{Concepts}{OSI, TCP-IP Suite, CPU architectures, sandboxing, multi-threading, and more. }
+\resumeItem{Operating Systems}{Debian, UNIX, Nix, NixOS, Guix, RTOS, RHEL, ESP-IDF, Virtualization, VRF, Oracle VM, VMWare, Bottles, Wine, etc.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Tooling}{}
+{Professional}{2022 - present}
+
+\resumeItemListStart
+\resumeItem{Network}{Wireshark, Nmap, tcpdump, hashcat, eve-ng, GNS3, ICMP, ICMPv6, etc. }
+\resumeItem{DevOps and systems}{OpenTelemetry, strace, HWiNFO, WinSCP, MobaXterm, etc. }
+\resumeItem{Digital processing}{CAD, Blender3D, OpenSCAD, GNU Gimp, DaVinci Resolve, Adobe (Ae, Pr, Lr, Ps), CaptureOne, LibreOffice, (La)TeX, Emacs-org, typst, 360, Figma, etc. }
+\resumeItemListEnd
+
+
+\resumeSubheading
+{Programming}{}
+{Advanced}{2020 - present}
+
+\resumeItemListStart
+\resumeItem{Nix}{Proficent}
+\subitem{Been using NixOS since May 2024, therefore I'm somewhat familiar with all of its *functionalities.}
+\resumeItem{C and C++}{Advanced}
+\subitem{I can make all the kinds of programs once i familiarize myself with the existing codebase, OpenGL, CMake, Qt (basic), socket programming, etc.}
+\resumeItem{Python}{Advanced}
+\subitem{I know all of its quirks and it's abilities. Django, Flask, Aiogram, Pandas, etc.}
+\resumeItem{Rust}{Currently progressing towards it}
+\resumeItem{Elisp/Clojure}{Proficent}
+\resumeItem{Lua}{Intermediate}
+\resumeItemListEnd
+
+%-----------SOFT-SKILLS---------------
+\section{Soft Skills}
+\resumeSubHeadingListStart
+\resumeItem{Languages I know}{}
+\subitem \textbf{Fluent:} English, Uzbek
+\subitem \textbf{Advanced:} Arabic, Japanese, Russian, Turkic languages.
+\subitem \textbf{Interested in learning:} German, Polski, Hungarian, Mandarin
+\resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{66-IDUMI}{Fergana, UZ}
+{Math class (7th grade)}{2020-2021}
+\resumeSubheading
+{65-IDUMI}{Fergana, UZ}
+{Filology class (8th grade)}{2021-2022}
+\resumeSubheading
+{Personal Development Process (Academy)}{Tashkent, UZ}
+{Backend development, G129, P11}{06/2022 – 2024}
+\resumeSubheading
+{Ilm.uz (Academy)}{Tashkent, UZ}
+{Network administration, CCNA}{08/2024 - 12/2025}
+\resumeSubHeadingListEnd
+
+%--------REFERENCES------------
+\section{References}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Muhammadkamol Hakimov}{Email : \href{muhammadkamol@yahoo.com}{muhammadkamol@yahoo.com}}
+{UTC+5}{Tel: +998 91 012 55 07}
+
+\resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
