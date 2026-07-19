@@ -19,7 +19,7 @@
 <!--     </samp> -->
 <!-- </p> -->
 
-## $${\color{black}Dying\space Fox\space Mountain\space Witch}$$
+$${\color{black}Dying\space Fox\space Mountain\space Witch}$$
 
 <big><pre>
 Fan of GPL-3.0, Emacs enjoyer, Network wizard, 18
