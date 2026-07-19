@@ -1,12 +1,12 @@
-<p>
-    <a href="https://github.com/msftyago/msftyago/readme.md">
-        <picture>
-        <source srcset="./assets/b.png">
-        <img alt="banner" src="./assets/b.png">
-        </picture>
-    </a>
+<!-- <p> -->
+<!--     <a href="https://github.com/msftyago/msftyago/readme.md"> -->
+<!--         <picture> -->
+<!--         <source srcset="./assets/b.png"> -->
+<!--         <img alt="banner" src="./assets/b.png"> -->
+<!--         </picture> -->
+<!--     </a> -->
     
-</p>
+<!-- </p> -->
 
 <!-- <p align="center"> -->
 <!--     <samp> -->
@@ -19,7 +19,7 @@
 <!--     </samp> -->
 <!-- </p> -->
 
-## $${\color{red}about}$$
+## $${\color{black}Dying\space Fox\space Mountain\space Witch}$$
 
 <big><pre>
 Fan of GPL-3.0, Emacs enjoyer, Network wizard, 18
