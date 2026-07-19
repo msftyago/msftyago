@@ -19,8 +19,6 @@
 <!--     </samp> -->
 <!-- </p> -->
 
-$${\color{black}Dying\space Fox\space Mountain\space Witch}$$
-
 <big><pre>
 Fan of GPL-3.0, Emacs enjoyer, Network wizard, 18
 |    **Current stack:** Rust & Nix
@@ -34,6 +32,8 @@ Fan of GPL-3.0, Emacs enjoyer, Network wizard, 18
 | more at [meow.uz](https://meow.uz)
 | mail me at [meow@meow.uz](mailto:meow@meow.uz)
 </pre></big>
+
+$${\color{black}Dying\space Fox\space Mountain\space Witch}$$
 
 <!-- ## $${\color{red}stack}$$ -->
 
